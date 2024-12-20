@@ -29,7 +29,8 @@
         "noReactSpecificProps": "off"
       },
       "style": {
-        "noDefaultExport": "warn"
+        "noDefaultExport": "warn",
+        "noImplicitBoolean": "off"
       },
       "correctness": {
         "noUnusedImports": "warn",
