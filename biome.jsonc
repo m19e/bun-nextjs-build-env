@@ -25,9 +25,6 @@
     "enabled": true,
     "rules": {
       "all": true,
-      "suspicious": {
-        "noReactSpecificProps": "off"
-      },
       "style": {
         "noDefaultExport": "warn",
         "noImplicitBoolean": "off"
@@ -42,6 +39,9 @@
           "fix": "safe",
           "options": {}
         }
+      },
+      "suspicious": {
+        "noReactSpecificProps": "off"
       }
     }
   },
