@@ -36,7 +36,13 @@
         "noUnusedImports": "warn",
         "noUnusedVariables": "warn"
       },
-      "nursery": { "useSortedClasses": "warn" }
+      "nursery": {
+        "useSortedClasses": {
+          "level": "warn",
+          "fix": "safe",
+          "options": {}
+        }
+      }
     }
   },
   "javascript": {
