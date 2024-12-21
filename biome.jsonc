@@ -54,22 +54,19 @@
       "semicolons": "asNeeded"
     }
   },
-  "css": {
-    "parser": {
-      "cssModules": true
-    },
-    "formatter": {
-      "enabled": true
-    },
-    "linter": {
-      "enabled": true
-    }
-  },
   "json": {
     "parser": {
       "allowComments": true
     },
     "formatter": {
+      "enabled": true
+    }
+  },
+  "css": {
+    "formatter": {
+      "enabled": true
+    },
+    "linter": {
       "enabled": true
     }
   }
