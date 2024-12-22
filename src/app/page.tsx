@@ -1,3 +1,4 @@
+import { Button } from '@/components/ui/button'
 import Image from 'next/image'
 
 export default function Home() {
@@ -47,6 +48,7 @@ export default function Home() {
           >
             Read our docs
           </a>
+          <Button>Shadcn/ui Button</Button>
         </div>
       </main>
       <footer className="row-start-3 flex flex-wrap items-center justify-center gap-6">
