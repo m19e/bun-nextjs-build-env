@@ -1,6 +1,7 @@
-import { EmojiPicker } from '@/components/EmojiPicker'
 import { Button } from '@/components/ui/button'
 import Image from 'next/image'
+
+import { Picker } from '@/components/EmojiPickerReact'
 
 export default function Home() {
   return (
@@ -51,7 +52,7 @@ export default function Home() {
           </a>
           <Button>Shadcn/ui Button</Button>
         </div>
-        <EmojiPicker />
+        <Picker />
       </main>
       <footer className="row-start-3 flex flex-wrap items-center justify-center gap-6">
         <a
