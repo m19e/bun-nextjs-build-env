@@ -1,3 +1,4 @@
+import { EmojiPicker } from '@/components/EmojiPicker'
 import { Button } from '@/components/ui/button'
 import Image from 'next/image'
 
@@ -50,6 +51,7 @@ export default function Home() {
           </a>
           <Button>Shadcn/ui Button</Button>
         </div>
+        <EmojiPicker />
       </main>
       <footer className="row-start-3 flex flex-wrap items-center justify-center gap-6">
         <a
