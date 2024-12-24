@@ -11,7 +11,6 @@ export const Canvas = () => {
   return (
     <Stage width={500} height={500} className="bg-slate-300">
       <Layer>
-        {/* 画像が読み込まれていれば描画 */}
         {image && (
           <Image
             image={image}
