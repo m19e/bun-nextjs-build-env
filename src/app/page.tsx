@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
 import { Canvas } from '@/components/Canvas'
-import { Picker } from '@/components/EmojiPickerReact'
+import { Picker } from '@/components/EmojiPicker'
 import { Demo } from '@/components/TransformerDemo'
 
 export default function Home() {
